@@ -4,14 +4,16 @@ import royal from '../../../public/royal.png'
 import primier from '../../../public/primier.png'
 import whiskas from '../../../public/whiskas.png'
 import natural from '../../../public/natural.png'
+import hills from '../../../public/hills.png'
+import tecNew from '../../../public/tecnew.jpg'
 import Image from 'next/image'
 import { FacebookLogo, InstagramLogo, YoutubeLogo } from '@phosphor-icons/react/dist/ssr'
 
 const brands = [
+  { name: "Hills", logo: hills },
+  { name: "Tec New", logo: tecNew },
   { name: "Royal Canin", logo: royal },
-  { name: "Golden", logo: golden },
   { name: "Primier", logo: primier },
-  { name: "Formula Natural", logo: natural },
   { name: "Whiskas", logo: whiskas },
   { name: "Golden", logo: golden },
 ]
@@ -30,7 +32,7 @@ export function Footer() {
                 <Image
                   src={item.logo}
                   alt={item.name}
-                  width={100}
+                  width={120}
                   height={50}
                   quality={100}
                   style={{
@@ -47,8 +49,8 @@ export function Footer() {
 
         <footer className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5'>
           <div>
-            <h3 className='text-2xl font-semibold mb-2'>Pedro Victor Veras - Dev - 2025</h3>
-            <p className='mb-4'>Cuidando do seu melhor amigo com amor e dedicação. Por um mundo mais feliz e sustentavel</p>
+            <h3 className='text-2xl font-semibold mb-2'>Pedro Victor Veras - Web Developer - 2025</h3>
+            <p className='mb-4'>Cuidando do seu melhor amigo com amor e respeito. Por um mundo mais feliz e sustentavel</p>
             <a
               href={`https://wa.me/5521999289987?text=Olá vim pelo site e gostaria de mais informações`}
               className='bg-green-500 px-4 py-2 rounded-md'
@@ -60,7 +62,7 @@ export function Footer() {
 
           <div>
             <h3 className='text-2xl font-semibold mb-2'>Contatos</h3>
-            <p>Email: teste@teste.com</p>
+            <p>Email: pedrovictorveras@id.uff.br</p>
             <p>Telefone: (21) 9999289987</p>
             <p>Campo Grande | RJ</p>
           </div>

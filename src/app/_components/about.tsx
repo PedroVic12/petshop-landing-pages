@@ -47,16 +47,16 @@ export function About() {
 
             <ul className="space-y-4">
               <li className="flex items-center gap-2">
-                <Check className="text-red-500" />
-                Aberto desde 2006.
+                <Check className="text-green-500" />
+                Aberto desde 2008.
               </li>
               <li className="flex items-center gap-2">
-                <Check className="text-red-900" />
-                Equipe com mais de 10 veterinários.
+                <Check className="text-green-500" />
+                Equipe com mais de 10 veterinários e mais de 20 vendedores especialistas. 
               </li>
               <li className="flex items-center gap-2">
-                <Check className="text-red-500" />
-                Qualidade é nossa prioridade.
+                <Check className="text-green-500" />
+                Qualidade e base cientifica são nossa prioridade.
               </li>
             </ul>
 
