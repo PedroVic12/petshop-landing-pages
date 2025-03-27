@@ -5,6 +5,9 @@ import { Check, MapPin } from "lucide-react";
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 
 export function About() {
+
+  let number = "5521999289987"
+
   return (
     <section className="bg-[#FDF6ec] py-16">
       <div className="container px-4 mx-auto">
@@ -61,11 +64,11 @@ export function About() {
             <div className="flex gap-2">
               <a
                 target='_blank'
-                href={`https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações`}
+                href={`https://wa.me/5521999289987?text=Olá vim pelo site e gostaria de mais informações`}
                 className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
               >
                 <WhatsappLogo className="w-5 h-5 text-white" />
-                Contato via WhatsApp
+                Contato  WhatsApp
               </a>
 
               <a

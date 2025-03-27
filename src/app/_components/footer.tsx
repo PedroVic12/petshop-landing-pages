@@ -47,10 +47,10 @@ export function Footer() {
 
         <footer className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5'>
           <div>
-            <h3 className='text-2xl font-semibold mb-2'>Pet Shop Dev</h3>
-            <p className='mb-4'>Cuidando do seu melhor amigo com amor e dedicação.</p>
+            <h3 className='text-2xl font-semibold mb-2'>Pedro Victor Veras - Dev - 2025</h3>
+            <p className='mb-4'>Cuidando do seu melhor amigo com amor e dedicação. Por um mundo mais feliz e sustentavel</p>
             <a
-              href="#"
+              href={`https://wa.me/5521999289987?text=Olá vim pelo site e gostaria de mais informações`}
               className='bg-green-500 px-4 py-2 rounded-md'
             >
               Contato via WhatsApp
@@ -61,8 +61,8 @@ export function Footer() {
           <div>
             <h3 className='text-2xl font-semibold mb-2'>Contatos</h3>
             <p>Email: teste@teste.com</p>
-            <p>Telefone: (XX) 1231831238</p>
-            <p>Rua X, centro, Campo Grande | MS</p>
+            <p>Telefone: (21) 9999289987</p>
+            <p>Campo Grande | RJ</p>
           </div>
 
 
