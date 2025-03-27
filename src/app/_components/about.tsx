@@ -43,8 +43,7 @@ export function About() {
             <h2 className="text-4xl font-bold">SOBRE</h2>
 
             <p>
-              Until one has loved an animal, a part of one's soul remains unawakened. We believe in it and we believe in easy access to things that are good for our mind, body and spirit. With a clever offering, superb support and a secure checkout you're in good hands.
-            </p>
+            Até que alguém tenha amado um animal, uma parte da alma permanece adormecida. Acreditamos nisso e acreditamos no fácil acesso a coisas que são boas para nossa mente, corpo e espírito. Com uma oferta inteligente, suporte excelente e um checkout seguro, você está em boas mãos.            </p>
 
             <ul className="space-y-4">
               <li className="flex items-center gap-2">
@@ -52,7 +51,7 @@ export function About() {
                 Aberto desde 2006.
               </li>
               <li className="flex items-center gap-2">
-                <Check className="text-red-500" />
+                <Check className="text-red-900" />
                 Equipe com mais de 10 veterinários.
               </li>
               <li className="flex items-center gap-2">
@@ -68,7 +67,7 @@ export function About() {
                 className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
               >
                 <WhatsappLogo className="w-5 h-5 text-white" />
-                Contato  WhatsApp
+                Contato no WhatsApp
               </a>
 
               <a

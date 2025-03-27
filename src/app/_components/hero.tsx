@@ -36,8 +36,10 @@ export function Hero() {
               Seu pet merece cuidado, carinho e atenção especial.
             </h1>
             <p className=" lg:text-lg" data-aos="fade-right">
-              Oferecemos os melhores serviços para garantir o bem-estar e a felicidade do seu amigo de quatro patas.
+                No nosso pet shop no Rio de Janeiro, oferecemos uma ampla gama de serviços para garantir o bem-estar e a felicidade do seu amigo de quatro patas. Encontre tudo o que você precisa para seu cachorro ou gato, desde ração de qualidade e acessórios até banho e tosa profissional e consultas veterinárias.     
             </p>
+
+            <p>Priorizamos a saúde e a alegria do seu pet. Visite nossa loja e proporcione o melhor para ele!     </p>
 
 
             <a
