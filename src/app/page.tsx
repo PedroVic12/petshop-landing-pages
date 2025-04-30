@@ -4,6 +4,10 @@ import { Hero } from "./_components/hero";
 import { Services } from "./_components/services";
 import { Testimonials } from "./_components/testimonials";
 
+
+
+
+//Componente final da langinpage
 export default function Home() {
   return (
     <main>
